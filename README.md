@@ -69,7 +69,10 @@ The blog website project serves as a **portfolio piece** and a foundation for fu
 ---
 
 ## Screenshots
-
+![Screenshot (13)](https://github.com/user-attachments/assets/0b45e5d1-2c7d-4065-81b4-d19405da0d1b)
+![Screenshot (14)](https://github.com/user-attachments/assets/622d4b55-eaa6-4727-9a7f-ddcd0581383f)
+![Screenshot (15)](https://github.com/user-attachments/assets/ff316430-cd21-43b8-8ab4-957e613c7cb8)
+![Screenshot (16)](https://github.com/user-attachments/assets/30a9ba01-09ff-450d-b6e5-646bb6e12384)
 
 
 
