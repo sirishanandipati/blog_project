@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Blog</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Header and Navigation -->
+    <header>
+        <h1>Blog</h1>
+        <nav>
+            <ul>
+                <li><a href="#post1">Art of Minimalism</a></li>
+                <li><a href="#post2">Meditation and Mindfulness
+                </a></li>
+                <li><a href="#post3">Exploring the World</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Blog Posts -->
+    <main>
+        <section id="post1" class="post">
+            <h2>The Art of Minimalism: How to Declutter Your Life</h2>
+            <p class="date">Published on: 2024-10-01</p>
+            <img src="image_01.webp" alt="Post 1 Image">
+
+            <p>Minimalism isn’t just about owning less; it’s about creating space for what truly matters. By focusing on essentials and removing distractions, you can reduce stress, save money, and gain mental clarity. Here’s how to start:
+
+                Declutter in Steps: Start with one area (like your closet) and decide what adds value. Let go of what doesn’t serve you.
+                
+                Adopt “One In, One Out”: For each new item, remove an old one to keep things balanced.
+                
+                Digitize: Clear out digital clutter—unsubscribe from emails and delete unused files.
+                
+                Quality Over Quantity: Invest in high-quality items that last, reducing waste and future costs.
+                
+                Minimalism encourages simplicity in all areas of life—from your wardrobe and schedule to your digital spaces. Embracing it can lead to a more focused, fulfilling life where less is truly more.</p>
+
+            <!-- Comment Section -->
+            <div class="comment-section">
+                <h3>Comments</h3>
+                <div class="comments" id="comments1"></div>
+                <input type="text" id="name1" placeholder="Your Name">
+                <textarea id="message1" placeholder="Your Comment"></textarea>
+                <button onclick="addComment('comments1', 'name1', 'message1')">Add Comment</button>
+            </div>
+        </section>
+
+        <section id="post2" class="post">
+            <h2>A Beginner’s Guide to Meditation and Mindfulness
+
+            </h2>
+            <p class="date">Published on: 2024-10-15</p>
+            <img src="image_02.webp" alt="Post 2 Image">
+            <p>Meditation and mindfulness are powerful tools for reducing stress, improving focus, and boosting overall well-being. Here’s a quick guide to help you start your journey:
+
+                Understand the Basics: Meditation involves focusing the mind, while mindfulness is about being present in each moment. Both encourage a calm, aware state of mind.
+                
+                Start Small: Begin with just 5–10 minutes each day. Find a quiet space, sit comfortably, and focus on your breathing. When your mind wanders, gently bring it back to your breath.
+                
+                Practice Regularly: Consistency is key. Aim for daily practice to build a habit and experience deeper relaxation over time.
+                
+                Be Kind to Yourself: It’s normal for thoughts to arise. Don’t judge them—just observe and let them go.
+                
+                Try Guided Sessions: Apps like Headspace or Insight Timer offer helpful guidance for beginners.
+                
+                Meditation and mindfulness can transform your mental clarity and emotional health. Start small, stay consistent, and gradually embrace a more peaceful, present way of living.</p>
+
+            <!-- Comment Section -->
+            <div class="comment-section">
+                <h3>Comments</h3>
+                <div class="comments" id="comments2"></div>
+                <input type="text" id="name2" placeholder="Your Name">
+                <textarea id="message2" placeholder="Your Comment"></textarea>
+                <button onclick="addComment('comments2', 'name2', 'message2')">Add Comment</button>
+            </div>
+        </section>
+
+        <section id="post3" class="post">
+            <h2>Exploring the World: Top Travel Destinations for 2024</h2>
+            <p class="date">Published on: 2024-10-30</p>
+            <img src="image_03.webp" alt="Post 3 Image">
+            <p>If you're dreaming of travel, 2024 offers incredible destinations that blend beauty, culture, and adventure. Here are three must-visit spots to inspire your next journey:
+
+                Kyoto, Japan: Known for its cherry blossoms, temples, and tea houses, Kyoto is perfect for those seeking rich history and serene landscapes. Spring is the ideal time to experience the breathtaking bloom of cherry blossoms.
+                
+                Reykjavik, Iceland: For nature lovers, Iceland’s capital offers access to stunning waterfalls, geothermal hot springs, and the Northern Lights. Winter months are best for catching the magical aurora borealis.
+                
+                Amalfi Coast, Italy: With its turquoise waters, cliffside villages, and mouth-watering cuisine, Italy’s Amalfi Coast is a top choice for a summer escape. Explore the colorful towns of Positano and Amalfi for unforgettable views and experiences.
+                
+                Whether you're drawn to natural wonders or cultural gems, these 2024 destinations offer unique experiences to satisfy every traveler's wanderlust. Pack your bags and get ready to explore!</p>
+
+            <!-- Comment Section -->
+            <div class="comment-section">
+                <h3>Comments</h3>
+                <div class="comments" id="comments3"></div>
+                <input type="text" id="name3" placeholder="Your Name">
+                <textarea id="message3" placeholder="Your Comment"></textarea>
+                <button onclick="addComment('comments3', 'name3', 'message3')">Add Comment</button>
+            </div>
+        </section>
+    </main>
+
+    <script src="script.js"></script>
+</body>
+</html>
